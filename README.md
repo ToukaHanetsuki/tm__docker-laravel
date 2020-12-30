@@ -30,7 +30,7 @@ $ docker-compose exec app bash
 ```
 
 ### Laravelのvendorをインストール
-```
+```bash
 $ composer install # コンテナ内で実施
 ```
 
