@@ -1,4 +1,4 @@
-# docker-laravel
+# docker laravel
 ## 概要
 dockerを用いてlaravelを動かすための環境リポジトリ
 | 項目 | バージョン |
