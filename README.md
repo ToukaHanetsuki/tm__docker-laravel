@@ -8,12 +8,6 @@ dockerを用いてlaravelを動かすための環境リポジトリ
 
 ## Set Up
 
-### リポジトリをクローンする
-```bash
-$ git clone git@github.com:ToukaHanetsuki/template__docker-laravel.git
-$ cd template__docker-laravel
-```
-
 ### コンテナの作成・起動
 ```bash
 $ docker-compose up -d --build

@@ -3,14 +3,14 @@ services:
   app:
     build: ./.container/php
     volumes:
-      - ./backend:/work
+      - ./work:/work
 
   web:
     image: nginx:1.18-alpine
     ports:
       - 80:80
     volumes:
-      - ./backend:/work
+      - ./work:/work
       - ./.container/nginx/default.conf:/etc/nginx/conf.d/default.conf
     working_dir: /work
 
